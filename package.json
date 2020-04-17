@@ -1,14 +1,26 @@
 {
   "name": "remark-ember-abc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A remark plugin to transform the Handlebars codeblocks to Angle brackets syntax.  ",
+  "main": "src/index.js",
   "scripts": {
     "test": "node test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "src/index.js",
+    "src/known-helpers.js",
+    "src/transform.js"
+  ],
+  "keywords": [
+  "remark",
+  "remark-plugin",
+  "markdown",
+  "codemod",
+  "codemods",
+  "ember"
+  ],
+  "author": "Rajasegar Chandran",
+  "license": "MIT",
   "dependencies": {
     "ember-template-recast": "^4.1.3",
     "remark-parse": "^8.0.0",
