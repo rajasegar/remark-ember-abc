@@ -1,14 +1,19 @@
 # remark-ember-abc
 
-A remark plugin to transform the Handlebars codeblocks to Angle brackets syntax.
+[remark](https://github.com/remarkjs/remark) plugin to transform the code blocks 
+in Handlebars syntax to Angle brackets syntax for Ember apps/addon documentation written in Markdown.
 It will only transform codeblocks of `hbs` type and leave the rest intact.
 
-## Usage
+## Install
 
 Install `remark-cli` and this plugin globally and use it:
 
 ```
 npm install -g remark-cli remark-ember-abc
+```
+
+## Usage
+```
 remark readme.md --use ember-abc 
 ```
 This will print the changed content in the console.
@@ -19,7 +24,14 @@ If you want to overwrite then use the output option `-o`
 remark readme.md --use ember-abc  -o
 ```
 
-For example, This will be converted to:
+To apply the transform to all Markdown files in the folder tree (even in nested sub-directories):
+
+```
+remark . --use ember-abc  -o
+```
+
+## Example
+This will be converted to:
 ```
 One sentence. Two sentences.
 
