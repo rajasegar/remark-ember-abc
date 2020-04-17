@@ -1,0 +1,23 @@
+{
+  "name": "remark-ember-abc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ember-angle-brackets-codemod": "^4.1.0",
+    "ember-template-recast": "^4.1.3",
+    "remark-code-blocks": "^2.0.1",
+    "remark-parse": "^8.0.0",
+    "remark-stringify": "^8.0.0",
+    "retext": "^7.0.1",
+    "to-vfile": "^6.1.0",
+    "unified": "^9.0.0",
+    "unist-util-visit": "^2.0.2"
+  }
+}
