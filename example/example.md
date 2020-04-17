@@ -3,7 +3,7 @@ One sentence. Two sentences.
 One sentence.  Two sentences.
 
 ```hbs
-{{#ally-landmark tagName="header">
+{{#ally-landmark tagName="header"}}
   This is my header content
 {{/ally-landmark}}
 ```
