@@ -14,12 +14,16 @@
     "src/transform.js"
   ],
   "keywords": [
+  "unified",
   "remark",
   "remark-plugin",
   "markdown",
   "codemod",
   "codemods",
-  "ember"
+  "ember",
+  "plugin",
+  "handlebars",
+  "hbs"
   ],
   "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
