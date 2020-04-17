@@ -1,6 +1,7 @@
 # remark-ember-abc
 
 A remark plugin to transform the Handlebars codeblocks to Angle brackets syntax.
+It will only transform codeblocks of `hbs` type and leave the rest intact.
 
 ## Usage
 
@@ -24,18 +25,19 @@ One sentence. Two sentences.
 
 One sentence.  Two sentences.
 
-```hbs
+\```hbs
 {{#ally-landmark tagName="header"}}
   This is my header content
 {{/ally-landmark}}
-```
+\```
 
-```html
+\```html
 <h1>Hello world</h1>
-```
+\```
 
-```js
+\```js
 const hello = "world";
+\```
 ```
 
 to this:
@@ -45,18 +47,19 @@ One sentence. Two sentences.
 
 One sentence.  Two sentences.
 
-```hbs
+\```hbs
 <AllyLandmark @tagName="header">
   This is my header content
 </AllyLandmark>
-```
+\```
 
-```html
+\```html
 <h1>Hello world</h1>
-```
+\```
 
-```js
+\```js
 const hello = "world";
+\```
 ```
 
 For more options using the `remark-cli` visit the official [guides](https://github.com/remarkjs/remark/tree/master/packages/remark-cli)
