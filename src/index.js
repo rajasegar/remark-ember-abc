@@ -8,9 +8,6 @@ function attacher({include, exclude, prefix} = {}) {
 
   function visitor(node) {
     let {lang} = node
-    console.log(node);
-
-    console.log(lang);
 
     if (
       !lang ||
