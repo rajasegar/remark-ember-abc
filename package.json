@@ -6,6 +6,8 @@
   "scripts": {
     "test": "node test"
   },
+ "repository": "rajasegar/remark-ember-abc",
+ "bugs": "https://github.com/rajasegar/remark-ember-abc/issues",
   "files": [
     "src/index.js",
     "src/known-helpers.js",
@@ -19,7 +21,7 @@
   "codemods",
   "ember"
   ],
-  "author": "Rajasegar Chandran",
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ember-template-recast": "^4.1.3",
