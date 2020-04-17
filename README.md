@@ -4,18 +4,21 @@ A remark plugin to transform the Handlebars codeblocks to Angle brackets syntax.
 
 ## Usage
 
-Install `remark` globally and use it:
+Install `remark-cli` and this plugin globally and use it:
 
 ```
-npm install -g remark
+npm install -g remark-cli remark-ember-abc
 remark readme.md --use ember-abc 
 ```
+This will print the changed content in the console.
 
-or using `npx`
+If you want to overwrite then use the output option `-o`
 
 ```
-npx remark readme.md --use ember-abc 
+remark readme.md --use ember-abc  -o
 ```
+
+For more options using the `remark-cli` visit the official [guides](https://github.com/remarkjs/remark/tree/master/packages/remark-cli)
 
 ## Info
 The transformation is based on the [ember-angle-brackets-codemod](https://github.com/ember-codemods/ember-angle-brackets-codemod)
