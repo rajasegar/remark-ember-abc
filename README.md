@@ -14,14 +14,14 @@ npm install -g remark-cli remark-ember-abc
 
 ## Usage
 ```
-remark readme.md --use ember-abc 
+remark README.md --use ember-abc 
 ```
 This will print the changed content in the console.
 
 If you want to overwrite then use the output option `-o`
 
 ```
-remark readme.md --use ember-abc  -o
+remark README.md --use ember-abc  -o
 ```
 
 To apply the transform to all Markdown files in the folder tree (even in nested sub-directories):
